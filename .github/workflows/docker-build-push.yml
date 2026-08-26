@@ -10,8 +10,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  # Evaluates dynamically to '<owner>/axion-telemetry-query-service'
-  IMAGE_NAME: ${{ github.repository }}
+  # Evaluates to 'asign796/axion-ingestion-service'
+  IMAGE_NAME: asign796/axion-ingestion-service
 
 jobs:
   build-and-push:
